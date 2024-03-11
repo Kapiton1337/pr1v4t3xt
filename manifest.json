@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "privatext",
+  "version": "1.0",
+
+  "description": "privatext",
+  "homepage_url": "",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "permissions": [
+    "tabs",
+    "cookies",
+    "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "privatext",
+    "default_popup": "popup/privatext.html"
+  },
+
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+}
