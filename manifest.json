@@ -16,14 +16,12 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/beasts-32.png",
+    "default_icon": "popup/privatext/public/logo192.png",
     "default_title": "privatext",
-    "default_popup": "popup/privatext.html"
+    "default_popup": "popup/privatext/public/index.html"
   },
 
   "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
+    
   ]
 }
